@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2013 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+<resources>
+    <string name="connection_error_code">Connection failure error code: %1$d</string>
+    <string name="connection_error_disabled">Google Play services is disabled</string>
+    <string name="connection_error_internal">An internal error occurred</string>
+    <string name="connection_error_invalid">The version of Google Play services on this device is not authentic</string>
+    <string name="connection_error_invalid_account">The specified account name is invalid</string>
+    <string name="connection_error_license_check_failed">The app is not licensed to the user</string>
+    <string name="connection_error_message">Connection failure error message: %1$s</string>
+    <string name="connection_error_misconfigured">The application is misconfigured</string>
+    <string name="connection_error_missing">Google Play services is missing</string>
+    <string name="connection_error_needs_resolution">Additional resolution is required</string>
+    <string name="connection_error_network">A network error occurred</string>
+    <string name="connection_error_outdated">Google Play services is out of date</string>
+    <string name="connection_error_sign_in_required">The user is not signed in</string>
+    <string name="connection_error_unknown">An unknown error occurred</string>
+    
+    <!-- Messages -->
+    <string name="connected">Client connected</string>
+    <string name="connection_error_code_unknown">Unknown connection error code:  %1$d</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="disconnected">Client disconnected</string>
+    <string name="get_address">Get Address</string>
+    <string name="get_location">Get Location</string>
+    <string name="illegal_argument_exception">
+        Illegal arguments: Latitude %1$.8f Longitude %2$.8f
+    </string>
+    <string name="invalid_action">Invalid intent action %1$s</string>
+    <string name="invalid_integer_id">Invalid integer request ID: %1$s</string>
+    <string name="IO_Exception_getFromLocation">IO Exception in Geocoder.getFromLocation()</string>
+    <string name="location_requested">Periodic updates requested</string>
+    <string name="location_updated">Location updated</string>
+    <string name="location_update_error">Location update failed</string>
+    <string name="location_update_error_detail">
+        Location update error. code %1$d message %2$s
+    </string>
+    <string name="location_update_missing_update">
+        Location update error. No incoming location.
+    </string>
+    <string name="location_updates_stopped">Periodic updates stopped</string>
+    <string name="log_new_location">New location: %1$s</string>
+    <string name="no_address_found">No address found for location</string>
+    <string name="no_connection">No connection: Cannot request location</string>
+    <string name="no_geocoder_available">Cannot get address. No geocoder available.</string>
+    <string name="no_location_available">Location not available</string>
+    <string name="resolved">Error resolved. Please re-try operation.</string>
+    <string name="no_resolution">Google Play services: unable to resolve connection error.</string>
+    <string name="periodic_update_stop">Stopping periodic updates</string>
+    <string name="play_services_available">Google Play services is available</string>
+    <string name="request_location_updates_in_progress">
+        Can\'t request location updates, previous request hasn\'t finished
+    </string>
+    <string name="start_updates">Start Updates</string>
+    <string name="stop_updates">Stop Updates</string>
+    <string name="unknown">--Unknown--</string>
+    <string name="unknown_activity_request_code">
+        Received an unknown activity request code %1$d in onActivityResult.
+    </string>
+    
+    <!-- User interface labels and strings -->
+	<string name="internet_alert">No connection. Please enable your internet connection.</string>
+    
+    <!-- Address format -->
+    <string name="address_output_string">%1$s %2$s %3$s</string>
+
+    <!-- Latitude, longitude format -->
+    <string name="latitude_longitude">%1$.8f, %2$.8f</string>
+
+    <!-- Menu title -->
+    <string name="action_settings">Settings</string>
+
+    <!-- Labels -->
+    <string name="latlng">Lat/Long:</string>
+    <string name="address">Address:</string>
+    
+    <!-- Checkbox -->
+    <string name="chk_facebook">Facebook</string>
+    <string name="chk_twiiter">Twiiter</string>
+    
+    <!-- Activity Maps -->
+    <string name="get_position">Getting user position &#8230;</string>
+    
+    <!-- Setting Preferences -->
+	<string name="zoom_summary">%1$d</string>
+    <string name="zoom_dialog_title">Default Zoom</string>
+    
+    <!-- Settings -->
+    <string name="social">Social</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="map">Map</string>
+    <string name="view_type">View Type</string>
+    <string name="default_zoom">Default Zoom</string>
+    
+    <string name="confirm">Confirm</string>
+    <string name="login_facebook">Login to Facebook</string>
+	<string name="login_twitter">Login to Twitter</string>
+	<string name="select_share">Please select your share</string>
+	<string name="no_name">No Name</string>
+	<string name="connect_twitter">Connected to Twitter as</string>
+	<string name="connect_twitter_failed">Twitter connection failed</string>
+	<string name="delete_twitter_connection">Delete current Twitter connection?</string>
+	<string name="post_to_twitter">Posted to Twitter</string>
+	<string name="post_to_twitter_failed">Post to Twitter failed</string>
+	<string name="post_limit">Post is more than 140 character</string>
+	<string name="post_review">Review posted</string>
+	<string name="connect_facebook_failed">Facebook connection failed</string>
+	<string name="delete_facebook_connection">Delete current Facebook connection?</string>
+	<string name="disconnect_facebook">Disconnecting from Facebook</string>
+	<string name="disconnect_facebook_2">Disconnected from Facebook</string>
+	<string name="connect_facebook">Connected to Facebook as</string>
+	<string name="connect_facebook_2">Connected to Facebook</string>
+	<string name="logout_facebook_failed">Facebook logout failed</string>
+	<string name="post_to_facebook">Posted to Facebook</string>
+	
+	<!-- Default location, gplay url, admob configurations -->
+    <string name="gps_alert">Would you like to enable GPS?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="distance_alert">your position is outside the area. this app will use default location.</string>
+    <string name="no_user_position">Can\'t get user position</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="layers">Layers</string>
+    <string name="retry">Retry</string>
+    <string name="no_internet_connection">No connection</string>
+    <string name="getting_marker">Getting marker&#8230;</string>
+    <string name="share_via">Share Via</string>
+    <string name="app_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis condimentum tristique imperdiet. Curabitur vehicula magna turpis, eu facilisis metus bibendum at. Fusce elit ligula, varius sit amet lorem id, accumsan aliquet ante.</string>
+    <string name="direction">Direction</string>
+    <string name="direction_alert">Improve the accuracy of your location by turning on GPS.</string>
+    <string name="no_route">Unable to get route</string>
+    <string name="loading_route">Loading route. Please wait &#8230;</string>
+    <string name="settings">Settings</string>
+    <string name="notice">Notice</string>
+    <string name="cannot_get_address">Cannot get location address</string>    
+    
+    <!-- Setting Preference -->
+    <string name="preferences_facebook">preferenceFacebook</string>
+    <string name="preferences_twitter">preferenceTwitter</string>
+    <string name="preferences_type">preferenceType</string>
+    <string name="preferences_zoom">preferenceZoom</string>
+    
+    <!-- Page -->
+    <string name="page_around_you">Around You</string>
+    <string name="page_category">Category</string>
+    <string name="page_place_list">Place List</string>
+    <string name="page_setting">Settings</string>
+    <string name="page_search">Search</string>
+    <string name="page_detail_place">Detail</string>
+    <string name="page_share">Share</string>
+    
+    <string-array name="lbl_array_view_type">
+        <item >Normal</item>
+        <item >Hybrid</item>
+        <item >Satelite</item>
+        <item >Terrain</item>
+    </string-array>
+    
+    <string name="menu_previous">Previous</string>
+   	<string name="menu_next">Next</string>
+   	<string name="menu_refresh">Refresh</string>
+   	<string name="menu_stop">Stop</string>
+   	<string name="menu_browser">Open in browser</string>
+</resources>

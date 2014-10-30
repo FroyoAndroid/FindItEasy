@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:padding="@dimen/padding_list">
+	<ImageView
+	    android:id="@+id/imgThumbnail"
+	    android:layout_width="@dimen/thumb_width"
+	    android:layout_height="@dimen/thumb_height"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:layout_marginRight="@dimen/thumb_margin_right"
+	    android:contentDescription="@string/app_name"
+	    android:scaleType="centerCrop"/>	
+	<LinearLayout
+		android:id="@+id/lytItem"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:layout_centerVertical="true"
+		android:layout_toRightOf="@+id/imgThumbnail"
+		android:layout_toLeftOf="@+id/ic_marker">
+		<TextView 
+			android:id="@+id/lblTitle" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:textColor="@color/text_title"
+			android:textStyle="bold"
+			style="@android:style/TextAppearance.Large"
+			android:layout_marginBottom="@dimen/title_margin_bottom"/>
+		<TextView 
+			android:id="@+id/lblAddress"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:textColor="@color/text_sub_title_list"
+			style="@android:style/TextAppearance.Medium"/>
+
+	</LinearLayout>
+	
+    <ImageView
+	    android:id="@+id/ic_marker"
+	    android:layout_width="@dimen/marker_size"
+	    android:layout_height="@dimen/marker_size"
+	  	android:layout_alignParentRight="true"
+	    android:layout_centerVertical="true"
+	    android:contentDescription="@string/app_name"
+	    android:scaleType="centerCrop"
+	    />
+</RelativeLayout>

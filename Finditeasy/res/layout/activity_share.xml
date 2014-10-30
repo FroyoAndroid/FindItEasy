@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">    
+
+	<ScrollView 
+	    android:layout_above="@+id/adView"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+		    
+		<LinearLayout 
+		    android:id="@+id/lytMain"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    android:layout_margin="@dimen/margin_share">
+		    
+		     <EditText 
+		        android:id="@+id/txtWhatDoYouThink"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="@string/hint_share"
+		        android:lines="5"
+		        android:background="@drawable/apptheme_edit_text_holo_light"/>
+		     
+		     <TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="@color/text_title"
+				android:text="@string/lbl_share_to"
+				android:textStyle="bold"
+				style="@android:style/TextAppearance.Large"
+				android:layout_marginTop="@dimen/margin_top"/>
+		     
+			<RelativeLayout 
+			    android:id="@+id/layout_facebook"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical">
+			
+				<TextView  
+				    android:id="@+id/lblFacebook"
+				    android:text="@string/chk_facebook"
+				    android:textColor="@color/text_sub_title"
+				    android:layout_width="wrap_content"  
+				    android:layout_height="wrap_content"
+				    android:layout_alignParentLeft="true"
+				    android:layout_centerVertical="true"
+				    style="@android:style/TextAppearance.Medium"/>
+				
+				<CheckBox 
+				    android:id="@+id/chkFacebook"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_centerVertical="true"
+				    android:layout_alignParentRight="true"
+				    android:button="@drawable/apptheme_btn_check_holo_light"/> 
+			</RelativeLayout>
+			 
+			<RelativeLayout 
+			    android:id="@+id/layout_twiiter"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical">
+			
+				<TextView  
+				    android:id="@+id/lblTwitter"
+				    android:text="@string/chk_twiiter"
+				    android:textColor="@color/text_sub_title"
+				    android:layout_width="wrap_content"    
+				    android:layout_toLeftOf="@+id/chkTwitter"
+				    android:layout_height="wrap_content"
+				    android:layout_alignParentLeft="true"
+				    android:layout_centerVertical="true"
+				    style="@android:style/TextAppearance.Medium"/>
+				
+				<CheckBox 
+				    android:id="@+id/chkTwitter"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:layout_centerVertical="true"
+				    android:layout_alignParentRight="true"
+				    android:button="@drawable/apptheme_btn_check_holo_light"/> 
+				 
+			 </RelativeLayout>	
+		  
+		    <Button 
+		        android:id="@+id/btnShare"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="@dimen/margin_share"
+		        android:layout_marginBottom="@dimen/margin_share"
+		        android:text="@string/btn_share"
+		        android:background="@drawable/apptheme_btn_default_holo_light"
+		        android:textColor="@color/btn_txt"
+		        style="@android:style/TextAppearance.Medium"/>
+		    
+		    <Button
+		        android:id="@+id/btnOtherApps" 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/btn_other_apps"
+		        android:background="@drawable/apptheme_btn_default_holo_light"
+		        style="@android:style/TextAppearance.Medium"
+		        android:textColor="@color/btn_txt"/>
+		    		    
+		</LinearLayout>
+	</ScrollView>
+	
+    <com.google.android.gms.ads.AdView
+	    android:id="@+id/adView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    ads:adUnitId="@string/admob_id"
+	    ads:adSize="SMART_BANNER"
+	    android:layout_alignParentBottom="true"
+	    android:layout_centerHorizontal="true"/>
+</RelativeLayout>	

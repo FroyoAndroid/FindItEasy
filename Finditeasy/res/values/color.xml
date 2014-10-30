@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="splash_background">#394263</color>
+    <color name="title_app">#FFFFFF</color>
+    <color name="menu_frame">#FFFFFF</color>
+    <color name="main_devider_color">#33b5e5</color>
+    <color name="devider_color">#dbdbdb</color>
+    <color name="actionbar_title_color">#ffffff</color>
+	<color name="title_background">#2683e0</color>
+	<color name="text_main_title">#0000ff</color>
+	<color name="btn_txt">#FFFFFF</color>
+	
+	<!-- activity map -->
+	<color name="text_title">#4d5375</color>
+	<color name="text_title_list">#424a71</color>
+	<color name="text_sub_title_list">#777777</color>
+	<color name="text_sub_title">#777777</color>
+	<color name="text_sub_title_setting">#777777</color>
+	<color name="list_line">#d0d0d0</color>
+	<color name="text_link">#1fa9ac</color>
+	
+	<color name="search_background">#d6d6d6</color>
+    <color name="content_background">#ffffff</color>
+    <color name="sliding_content_background">#394263</color>
+    <color name="sliding_listSelector">#1fa9ac</color>
+    <color name="sliding_text">#ffffff</color>
+    <color name="menu_line">#2d334c</color>
+    
+    <!-- setting preference -->
+    <color name="label">#aaaaaa</color>
+</resources>

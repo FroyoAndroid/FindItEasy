@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- app string -->
+    <string name="app_name">Perkutut</string>
+    
+    <!-- Need Change with your -->
+    	<!-- Admob -->
+    		<string name="admob_id">a1531a6c4f34fb2</string>
+        
+        <!-- Facebook and Twitter configuration -->
+			<string name="facebook_app_id">YOUR_FACEBOOK_APP_ID</string>
+			<string name="twitter_consumer_key">YOUR_TWITTER_CONSUMER_KEY</string>
+			<string name="twitter_secret_key">YOUR_TWITTER_SECRET_KEY</string>
+			
+		<!-- google play url -->	
+			<string name="gplay_web_url">https://play.google.com/store/apps/details?id=com.your.package</string>
+			<string name="gplay_url">market://details?id=com.your.package</string>
+			
+    	<!-- Copyright -->
+    		<string name="copyright">&#169; pongodev.com. All rights reserved.</string>
+    
+    <string name="page_about">About</string>
+    
+	<!-- Alert -->
+    <string name="alert_notification">You have new location!!</string>
+    
+    <!-- tab -->
+    <string name="tab_info">Info</string>
+    <string name="tab_map">Map</string>
+    
+    <!-- hint -->
+    <string name="hint_share">What do you think ?</string>
+    <string name="loading_data">Loading data&#8230;</string>
+    <string name="hint_search">Type Name</string>
+    
+    <!-- button -->
+    <string name="btn_other_apps">Other Apps</string>
+    <string name="btn_share">Share</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_load_more">Load More</string>
+    <string name="btn_tell_friend">Tell a Friend</string>
+    <string name="btn_rate_app">Rate App</string>
+    
+    <!-- label -->
+    <string name="lbl_share_to">Share to:</string>
+    <string name="lbl_no_result">No Result</string>
+    <string name="menu_arround">Around You</string>
+    <string name="menu_reroute">Reroute</string>
+        
+	<string-array name="menu_list">
+        <item >Latest</item>
+        <item >Category</item>
+        <item >Search</item>
+        <item >Setting</item>
+        <item >About</item>
+    </string-array>
+    
+</resources>

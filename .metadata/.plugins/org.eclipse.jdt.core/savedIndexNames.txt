@@ -1,0 +1,10 @@
+INDEX VERSION 1.126+C:\Users\Bogi\Find.it.Easy\.metadata\.plugins\org.eclipse.jdt.core
+2195193376.index
+1666755608.index
+2337290622.index
+3344517930.index
+848856923.index
+2282213895.index
+1330439252.index
+1536412400.index
+2422007148.index

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:example="http://schemas.android.com/apk/res/com.website.finditeasy">
+
+	<PreferenceCategory 
+	    android:key="key_social_category"
+        android:title="@string/social">
+        
+        <CheckBoxPreference
+	    	android:key="@string/preferences_facebook"
+			android:title="@string/facebook"
+	        android:defaultValue="false" 
+	        android:layout="@layout/setting"/>
+        
+        <CheckBoxPreference
+	    	android:key="@string/preferences_twitter"
+	        android:title="@string/twitter"
+	        android:defaultValue="false" 
+			android:layout="@layout/setting"/>
+
+	</PreferenceCategory>
+        
+	<PreferenceCategory
+	    android:key="key_map_category"
+	    android:title="@string/map">
+        	
+		<ListPreference
+	    	android:key="@string/preferences_type"
+			android:title="@string/view_type" 
+		    android:summary="Normal"
+		    android:entries="@array/lbl_array_view_type"		    
+            android:entryValues="@array/lbl_array_view_type"
+            android:defaultValue="Normal"
+            android:layout="@layout/setting"/>
+		    		
+	    <com.website.finditeasy.setting.PreferenceZoom
+	        android:key="@string/preferences_zoom"
+		    android:title="@string/zoom_dialog_title"
+		    android:dialogTitle="@string/zoom_dialog_title"
+		    android:summary="@string/zoom_summary"
+		    android:layout="@layout/setting"
+		    android:persistent="true"
+		    android:defaultValue="10"
+		    example:minValue="1"
+		    example:maxValue="15"/>
+
+        	
+	</PreferenceCategory>
+
+</PreferenceScreen>

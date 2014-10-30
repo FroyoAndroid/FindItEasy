@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView 
+    android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/content_background"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<LinearLayout  
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:padding="@dimen/padding_detail_info">
+	   
+	    <TextView
+	        android:id="@+id/lblAppName"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="@color/text_title"
+			android:textStyle="bold"
+			android:layout_gravity="center_horizontal"
+			android:layout_marginTop="@dimen/padding_detail_info"
+			android:layout_marginBottom="@dimen/padding_detail_info"
+			style="@android:style/TextAppearance.Large"
+			android:text="@string/app_name"/>
+	    
+	    <TextView
+	        android:id="@+id/lblDesc"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="@color/text_sub_title"
+			style="@android:style/TextAppearance.Medium"
+			android:gravity="center"
+			android:layout_marginTop="@dimen/padding_detail_info"
+			android:layout_marginBottom="@dimen/padding_detail_info"
+			android:text="@string/app_description"/>
+	    
+	    <TextView
+	        android:id="@+id/lblCopyright"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="@color/text_link"
+			style="@android:style/TextAppearance.Medium"
+			android:gravity="center"
+			android:layout_gravity="center_horizontal"
+			android:layout_marginTop="@dimen/padding_detail_info"
+			android:layout_marginBottom="@dimen/padding_detail_info"
+			android:text="@string/copyright"/>
+	    
+	    <Button 
+	        android:id="@+id/btnShare"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="@dimen/margin_share"
+	        android:layout_marginBottom="@dimen/margin_share"
+	        android:text="@string/btn_tell_friend"
+	        android:background="@drawable/apptheme_btn_default_holo_light"
+	        android:textColor="@color/btn_txt"
+	        style="@android:style/TextAppearance.Medium"
+	        />
+	    
+	    <Button 
+	        android:id="@+id/btnRate"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/btn_rate_app"
+	        android:background="@drawable/apptheme_btn_default_holo_light"
+	        style="@android:style/TextAppearance.Medium"
+	        android:textColor="@color/btn_txt"
+	        />
+	</LinearLayout>
+	
+	
+</ScrollView>
+	

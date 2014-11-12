@@ -954,6 +954,14 @@ public class ActivityDirection extends SherlockFragmentActivity implements
 
         protected String doInBackground(String... args) {
         	// Call Google Maps Direction API to get direction data
+        	/**
+        	 * 	Travel Modes
+        	 * *****************
+        	 *	driving (default) indicates standard driving directions using the road network.
+			 *	walking requests walking directions via pedestrian paths & sidewalks (where available).
+			 *	bicycling requests bicycling directions via bicycle paths & preferred streets (where available).
+			 *	transit requests directions via public transit routes (where available).
+        	 */
             String stringUrl = "http://maps.googleapis.com/maps/api/directions/json?origin=" + mSource + "&destination=" + mDestination + "&sensor=true&mode=driving";
             StringBuilder response = new StringBuilder();
             try {
